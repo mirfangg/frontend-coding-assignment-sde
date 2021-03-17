@@ -1,0 +1,65 @@
+button {
+    background-color: #32a54c;
+    color: #ffffff;
+    padding: 5px 15px;
+    margin: 15px 0 15px 145px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    outline: none;
+    cursor: pointer;
+}
+
+.issue-detail-page-container {
+    display: flex;
+    margin: 0 145px;
+
+    .issue-body {
+        display: grid;
+        place-items: center; 
+        float: left;  
+        width: 83%; 
+        height: 280px;
+        margin-right: 20px;
+        text-align: center;
+    } 
+    
+    .issue-labels { 
+        float: right; 
+        width: 17%; 
+        height: 50px;
+        
+        p {
+            text-align: center;
+        }
+
+        .buttons-container {
+            padding: 15px 0;
+        }
+
+        button {
+            padding: 6px 28px;
+            margin: 5px 0;
+            border-radius: 16px;
+            border: 1px solid #dddddd;
+        }
+
+        #first {
+            background-color: #353a40;
+            float: left;
+        }
+
+        #second {
+            background-color: #6b777c;
+            float: right;
+        }
+
+        #third {
+            background-color: #33a44a;
+        }
+    }
+    
+    .issue-body,
+    .issue-labels {
+        border: 2px solid #000000; 
+    }
+}

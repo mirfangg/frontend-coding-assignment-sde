@@ -1,0 +1,61 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}  
+
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+}
+
+tr {
+    border: 2px solid #000000;
+}
+
+button {
+    background-color: #ffffff;
+    padding: 8px 38px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    outline: none;
+    cursor: pointer;
+}
+
+.issues-homepage-container {
+    margin: 35px 145px;
+}
+
+.table-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+    background-color: #e6e6e6;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+    a {
+        color: #669ec1;
+        font-weight: bold;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #dddddd;
+    }
+
+    a:hover {
+        background-color: #ddd;
+    }
+}
+
